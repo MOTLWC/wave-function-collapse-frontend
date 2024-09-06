@@ -1,0 +1,19 @@
+body {
+    height:100%;
+    background-color: rgb(0, 0, 56);
+}
+header {
+    margin: 10px;
+    background-color: hsl(240, 38%, 33%);
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+h5 {
+    margin: 10px;
+}

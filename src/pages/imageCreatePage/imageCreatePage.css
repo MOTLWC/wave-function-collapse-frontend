@@ -1,0 +1,51 @@
+canvas {
+    background-color: grey;
+}
+
+#generationSettingsContainer {
+    width: 400px;
+}
+
+#promptContainer {
+    display:flex; 
+    justify-content: space-around;
+}
+
+#promptDisplay {
+    transform: scale(5);
+    image-rendering: pixelated;
+    margin:50px;
+}
+
+#TestDisplayForCells {
+    display:block;
+    height:fit-content;
+    background-color: brown;
+}
+#TestDisplayForPatternCells {
+    display:block;
+    height:fit-content;
+    background-color: blue;
+}
+
+#outputCanvas {
+    margin:200px;
+    transform: scale(5);
+    image-rendering: pixelated;
+}
+
+#outputSettings {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin:10px;
+    color: whitesmoke;
+    font-size: large;
+}
+
+input, select {
+    margin:20px;
+    width: 100px;
+}

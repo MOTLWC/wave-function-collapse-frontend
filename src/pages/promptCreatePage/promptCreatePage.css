@@ -1,0 +1,81 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    background: whitesmoke;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+#canvasContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: grey;
+}
+
+#controlePannel {
+    padding: 40px;
+}
+
+#colourPallete {
+    width: 80%;
+    height: fit-content;
+    outline: solid black 1px;
+}
+
+#promptCanvas {
+    background-image: url("../../images/void_image.png");
+    transform: scale(10);
+    image-rendering: pixelated;
+    background-position: top right;
+    background-size: auto;
+}
+
+
+
+ /* COLOUR CREATE STUFF */
+#createColour{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ColourSliderContainer{
+    max-width: 140px;
+    margin:20px
+}
+
+.slider{
+    /* transform: rotate(-90deg);
+    transform-origin: 50% 50%; */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    outline: solid 1px black;
+    border-radius: 12px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  p {
+    color: whitesmoke;
+  }

@@ -1,0 +1,21 @@
+#linkContainer{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.LinkContainer {
+    color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: whitesmoke;
+}
+
+Link {
+    color: whitesmoke;
+}

@@ -1,0 +1,26 @@
+#promptElementContainer {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+#elementCanvas {
+    width: 100%;
+    height:100%;
+    image-rendering: pixelated;
+}
+
+#elementName {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    position:relative;
+    margin: auto;
+    margin-bottom: -30px;
+    background-color:rgba(216, 216, 216, 0.8);
+    color: black;
+}
+
+#promptElementContainer:hover #elementName{
+    opacity: 1;
+}
